@@ -50,7 +50,7 @@ export default function ThreeTierPricing() {
         <PriceWrapper>
           <Box py={4} px={12}>
             <Text fontWeight="500" fontSize="2xl">
-              Hobby
+              Free
             </Text>
             <HStack justifyContent="center">
               <Text fontSize="3xl" fontWeight="600">
@@ -114,7 +114,7 @@ export default function ThreeTierPricing() {
             </Box>
             <Box py={4} px={12}>
               <Text fontWeight="500" fontSize="2xl">
-                Growth
+                Expert
               </Text>
               <HStack justifyContent="center">
                 <Text fontSize="3xl" fontWeight="600">
@@ -166,7 +166,7 @@ export default function ThreeTierPricing() {
         <PriceWrapper>
           <Box py={4} px={12}>
             <Text fontWeight="500" fontSize="2xl">
-              Scale
+              Coach
             </Text>
             <HStack justifyContent="center">
               <Text fontSize="3xl" fontWeight="600">
