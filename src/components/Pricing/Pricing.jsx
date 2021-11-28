@@ -22,6 +22,7 @@ function PriceWrapper({ children }) {
       alignSelf={{ base: "center", lg: "flex-start" }}
       borderColor={useColorModeValue("gray.200", "gray.500")}
       borderRadius={"xl"}
+      width={"350px"}
     >
       {children}
     </Box>
@@ -50,14 +51,14 @@ export default function ThreeTierPricing() {
         <PriceWrapper>
           <Box py={4} px={12}>
             <Text fontWeight="500" fontSize="2xl">
-              Free
+              Classic
             </Text>
             <HStack justifyContent="center">
-              <Text fontSize="3xl" fontWeight="600">
-                $
-              </Text>
               <Text fontSize="5xl" fontWeight="900">
-                79
+                0
+              </Text>
+              <Text fontSize="3xl" fontWeight="600">
+                €
               </Text>
               <Text fontSize="3xl" color="gray.500">
                 /month
@@ -72,19 +73,19 @@ export default function ThreeTierPricing() {
             <List spacing={3} textAlign="start" px={12}>
               <ListItem>
                 <ListIcon as={FaCheckCircle} color="green.500" />
-                unlimited build minutes
+                Track your fitness level
               </ListItem>
               <ListItem>
                 <ListIcon as={FaCheckCircle} color="green.500" />
-                Lorem, ipsum dolor.
+                Rate your feeling
               </ListItem>
               <ListItem>
                 <ListIcon as={FaCheckCircle} color="green.500" />
-                5TB Lorem, ipsum dolor.
+                Add comments
               </ListItem>
             </List>
             <Box w="80%" pt={7}>
-              <Button w="full" colorScheme="red" variant="outline">
+              <Button w="full" colorScheme="blue" variant="outline">
                 Start trial
               </Button>
             </Box>
@@ -101,7 +102,7 @@ export default function ThreeTierPricing() {
             >
               <Text
                 textTransform="uppercase"
-                bg={useColorModeValue("red.300", "red.700")}
+                bg={useColorModeValue("blue.300", "blue.700")}
                 px={3}
                 py={1}
                 color={useColorModeValue("gray.900", "gray.300")}
@@ -117,11 +118,11 @@ export default function ThreeTierPricing() {
                 Expert
               </Text>
               <HStack justifyContent="center">
-                <Text fontSize="3xl" fontWeight="600">
-                  $
-                </Text>
                 <Text fontSize="5xl" fontWeight="900">
-                  149
+                  4,90
+                </Text>
+                <Text fontSize="3xl" fontWeight="600">
+                  €
                 </Text>
                 <Text fontSize="3xl" color="gray.500">
                   /month
@@ -136,27 +137,27 @@ export default function ThreeTierPricing() {
               <List spacing={3} textAlign="start" px={12}>
                 <ListItem>
                   <ListIcon as={FaCheckCircle} color="green.500" />
-                  unlimited build minutes
+                  Plan your next competitions
                 </ListItem>
                 <ListItem>
                   <ListIcon as={FaCheckCircle} color="green.500" />
-                  Lorem, ipsum dolor.
+                  Anticipate your physical condition
                 </ListItem>
                 <ListItem>
                   <ListIcon as={FaCheckCircle} color="green.500" />
-                  5TB Lorem, ipsum dolor.
+                  Get help from our AI
                 </ListItem>
                 <ListItem>
                   <ListIcon as={FaCheckCircle} color="green.500" />
-                  5TB Lorem, ipsum dolor.
+                  Analysis of your physical fatigue
                 </ListItem>
                 <ListItem>
                   <ListIcon as={FaCheckCircle} color="green.500" />
-                  5TB Lorem, ipsum dolor.
+                  Increase your training during peak fitness periods
                 </ListItem>
               </List>
               <Box w="80%" pt={7}>
-                <Button w="full" colorScheme="red">
+                <Button w="full" colorScheme="blue">
                   Start trial
                 </Button>
               </Box>
@@ -169,11 +170,11 @@ export default function ThreeTierPricing() {
               Coach
             </Text>
             <HStack justifyContent="center">
-              <Text fontSize="3xl" fontWeight="600">
-                $
-              </Text>
               <Text fontSize="5xl" fontWeight="900">
-                349
+                39,90
+              </Text>
+              <Text fontSize="3xl" fontWeight="600">
+                €
               </Text>
               <Text fontSize="3xl" color="gray.500">
                 /month
@@ -188,19 +189,19 @@ export default function ThreeTierPricing() {
             <List spacing={3} textAlign="start" px={12}>
               <ListItem>
                 <ListIcon as={FaCheckCircle} color="green.500" />
-                unlimited build minutes
+                Access the coaching interface
               </ListItem>
               <ListItem>
                 <ListIcon as={FaCheckCircle} color="green.500" />
-                Lorem, ipsum dolor.
+                Follow as many athletes as you want
               </ListItem>
               <ListItem>
                 <ListIcon as={FaCheckCircle} color="green.500" />
-                5TB Lorem, ipsum dolor.
+                Prepare your team for the important moments of the season
               </ListItem>
             </List>
             <Box w="80%" pt={7}>
-              <Button w="full" colorScheme="red" variant="outline">
+              <Button w="full" colorScheme="blue" variant="outline">
                 Start trial
               </Button>
             </Box>
