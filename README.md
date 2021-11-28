@@ -1,5 +1,7 @@
 # SPORT CARE LANDING PAGE
 
+You can find the project at this address : https://sport-care-landing.vercel.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
